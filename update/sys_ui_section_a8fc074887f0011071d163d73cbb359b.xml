@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a8fc074887f0011071d163d73cbb359b" sys_domain="global" table="ast_contract" version="3" view="Create_NDA_Contract">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_model</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_id>28fc074887f0011071d163d73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e0fc074887f0011071d163d73cbb3597">a8fc074887f0011071d163d73cbb359b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_administrator</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_id>a8fc074887f0011071d163d73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e0fc074887f0011071d163d73cbb3597">a8fc074887f0011071d163d73cbb359b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_id>2cfc074887f0011071d163d73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e0fc074887f0011071d163d73cbb3597">a8fc074887f0011071d163d73cbb359b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approver</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_id>acfc074887f0011071d163d73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e0fc074887f0011071d163d73cbb3597">a8fc074887f0011071d163d73cbb359b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_options</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_id>20fc074887f0011071d163d73cbb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e0fc074887f0011071d163d73cbb3597">a8fc074887f0011071d163d73cbb359b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>ast_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-28 17:25:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8fc074887f0011071d163d73cbb359b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ast_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_a8fc074887f0011071d163d73cbb359b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-28 17:25:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Create NDA Contract" name="Create_NDA_Contract">e0fc074887f0011071d163d73cbb3597</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
