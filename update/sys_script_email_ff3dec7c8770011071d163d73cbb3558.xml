@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>CountOverdueNeedItTasksAssignedTo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	//Construir uma query do tipo GlideRecord para encontar todos os registros da tabela NeedIt Task
+	//com os valores do campo Due date no passado para o mesmo Assigned to. os registros não podem estar com o state Closed
+	var rightNow = new GlideDateTime();
+	
+	var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+	overdueNITasks.addQuery('due_date', '<=', rightNow);
+	overdueNITasks.addQuery('state', '<', 3);
+	overdueNITasks.addQuery('assigned_to', current.assigned_to);
+	overdueNITasks.query();
+	
+	//Printar no corpo da mensagem em uma notificação somente no caso de existir mais de um registro
+	var contador = overdueNITasks.getRowCount();
+	if(contador >= 2){
+		template.print("In addition to this overdue NeedIt Task, you have " + (overdueNITasks.getRowCount() - 1) + " more overdue NeedIt Tasks.");
+	}
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:50:09</sys_created_on>
+        <sys_id>ff3dec7c8770011071d163d73cbb3558</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CountOverdueNeedItTasksAssignedTo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_email_ff3dec7c8770011071d163d73cbb3558</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:57:20</sys_updated_on>
+    </sys_script_email>
+</record_update>
