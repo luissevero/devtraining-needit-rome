@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_what_needed" table="var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_what_needed</element>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:28:03</sys_created_on>
+            <sys_id>b7f83e7487d2411071d163d73cbb353a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_what_needed</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550_u_what_needed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:28:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facilities 1</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:34:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed5af67487d2411071d163d73cbb3583</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:34:12</sys_updated_on>
+            <value>facilities1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facilities 2</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea7af6f487d2411071d163d73cbb3550</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:34:41</sys_updated_on>
+            <value>facilities2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Resources 1</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:35:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a8a36b487d2411071d163d73cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:35:00</sys_updated_on>
+            <value>hr1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Resources 2</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>729af6b487d2411071d163d73cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:35:16</sys_updated_on>
+            <value>hr2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal 1</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:28:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61f83ab487d2411071d163d73cbb356d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:28:03</sys_updated_on>
+            <value>legal1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal 2</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:32:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a0af6b487d2411071d163d73cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:32:44</sys_updated_on>
+            <value>legal2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_b1a7367487d2411071d163d73cbb3550</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-15 13:35:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64ba7ef487d2411071d163d73cbb356a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-15 13:35:36</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
