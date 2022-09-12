@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function continueOK() {
+
+	var teste = gel('teste').innerText;
+	//var comments = gel('comments').value;
+	if (teste.trim() == "") {
+		gel('teste').style.border = "1px solid #ff3b3b";
+        return false;
+    }
+	GlideDialogWindow.get().destroy();
+    g_form.setValue("close_notes", teste);
+    g_form.setValue('state', '3');
+    g_form.save();
+}
+
+function continueCancel() {
+    GlideDialogWindow.get().destroy();
+    return false;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_58872_needit_teste_responsivo.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:ui_form>
+		<div style="padding: 20px">
+			
+			<style>
+				label.required::before {
+				  content: '*';
+				  margin-right: 4px;
+				  color: red;
+				}
+			</style>
+			
+			<g:form_label class="required">
+				${gs.getMessage('Close notes')}:
+			</g:form_label>
+			<br/>
+			<div style="border: 1px solid #000;" role='textbox' contenteditable='true' name='teste' id='teste'></div> 
+			<br/>
+			<!--<textarea name="comments" id="comments" rows="80" style="width: 100%"></textarea>-->
+
+			<div style="margin-top: 20px">
+				<div class="modal-footer">
+					<g:dialog_buttons_ok_cancel ok_id="submitData" ok="return continueOK()" ok_type="button" ok_text="${gs.getMessage('Okay')}" ok_style_class="btn btn-primary" cancel_type="button" cancel_id="cancelData" cancel_style_class="btn btn-default" cancel="return continueCancel()"/>
+				</div>
+			</div>
+		</div>
+	</g:ui_form>
+</j:jelly>]]></html>
+        <name>teste_responsivo</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-29 11:37:16</sys_created_on>
+        <sys_id>afd0eaaa97ad191081f5747e6253af1d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>teste_responsivo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_page_afd0eaaa97ad191081f5747e6253af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-29 12:11:50</sys_updated_on>
+    </sys_ui_page>
+</record_update>
